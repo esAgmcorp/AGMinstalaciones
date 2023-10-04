@@ -13,7 +13,8 @@
 
 html, body {
 	font-family: 'Open Sans', sans-serif;
-	background:#222222;
+	font-family: 'Work Sans', sans-serif;
+	background:#353232;
 	color: #f7f7f7;
 	margin:0; 
 	padding:0;
@@ -23,6 +24,87 @@ html, body {
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-stroke: rgba(255,255,255,0.01) 0.1px;
 	-webkit-text-stroke-width: 0.1px;
+}
+
+/* 
+///////////////////////////////
+    ///cuenta atras///
+//////////////////////////////
+*/
+
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.simply-section {
+	background: #2b2a2a;
+	width: 95px;
+	height: 95px;
+	margin: 0 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 200;
+	font-size: 15px;
+}
+
+.redes-sociales .btn-red-social {
+	padding: 15px 0;
+	display: inline-block;
+	min-width: 65px;
+	border-radius: 5px;
+	background: #2ACDFE;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 20px;
+	transition: .3s ease all;
+}
+
+.redes-sociales .btn-red-social:hover {
+	box-shadow: 0px 0px 50px 10px rgba(0,0,0,.15);
+}
+
+.portada .header .logotipo {
+	font-size: 25px;
+	font-size: 900;
+	margin-bottom: 20px;
+	color: #EFEFEF;
+}
+
+.portada .header .mensaje {
+	font-size: 30px;
+	font-weight: 600;
+	color: #2ACDFE;
+}
+
+
+/* 
+///////////////////////////////
+    ///cuenta atras///
+//////////////////////////////
+*/
+
+
+button
+{
+ border-radius: 8px;
+ border: 2px solid #ffffff; /* White */
+ text-align: center;
+ text-decoration: none;
+ color: white;
+
 }
 
 a:visited, a:focus{color: none;}
@@ -273,10 +355,12 @@ cite {
 }
 
 #home-slider .caption p {
-    color: #fff;
+    color: #ffffff;
 	font-size: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 	padding-bottom: 40px;
+    font-weight: 400;
+    text-shadow: 0 0 15px #000000;
 }
 
 
@@ -513,9 +597,11 @@ cite {
 }
 
 .element-title h1 {
+	color: #fff;
 	font-size: 30px;
 	text-transform: uppercase;
 }
+
 
 .element-title h3 {
 	font-size: 20px;
@@ -826,6 +912,7 @@ cite {
 }
 
 .team-member-role {
+    color: #fff;
     font-size: 16px;
     margin-bottom: 16px;
 	font-weight: 700;
@@ -1777,10 +1864,5 @@ a.scroll-up:hover {
 	margin-top: -90px;
 	padding-top: 85px;
 }
-
-
-
-
-
 
 
